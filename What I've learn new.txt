@@ -49,3 +49,18 @@ h1, a {
 border: 5px solid red;
 }
 로 코드를 줄임
+
+
+반응형 디자인과 미디어 쿼리
+width < 800px이라면 max-width:800px이다.
+width > 800px이라면 min-width:800px이다.
+
+    @media(max-width:800px) {
+      #grid {
+        display: block;
+      }
+
+      div {
+        border-right: none;
+      }
+    }
