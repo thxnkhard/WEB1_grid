@@ -26,6 +26,8 @@ tag
 id > class > tag 우선순위(priority)
 ID's are unique
 Classes are NOT unique (grouping)
+동급이면 가까운 명령을 받는다.
+좀 더 구체적인것이 좀 더 포괄적인 것보다 우선순위
 
 검색하는법
 선택자(Selector), 선언(declaration), 속성(property), 속성값(property-value) 등
